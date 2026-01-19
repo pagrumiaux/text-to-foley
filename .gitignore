@@ -56,4 +56,4 @@ models/
 output/
 generated_sounds/
 *.wav
-!examples/*.wav
+!examples/audio/*.wav
