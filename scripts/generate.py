@@ -89,7 +89,6 @@ Examples:
         default=None,
         help="Device to use (default: auto-detect)"
     )
-
     # Parse arguments
     args = parser.parse_args()
 

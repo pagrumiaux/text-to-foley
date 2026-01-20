@@ -50,11 +50,13 @@ class FoleyGenerator:
     ):
         """
         Initialize the FoleyGenerator.
-        
+
         Args:
-            model_name: AudioGen model to use. Options:
-                - "facebook/audiogen-medium" (default, recommended)
-            device: Device to run on ('cuda', 'mps', 'cpu'). 
+            model_name: AudioGen model to use. Currently available:
+                - "facebook/audiogen-medium" (1.5B params, default)
+                Note: AudioGen only provides this single pretrained model.
+                      Requires GPU with at least 16GB VRAM.
+            device: Device to run on ('cuda', 'mps', 'cpu').
                     Auto-detected if None.
             cache_dir: Directory for model cache. Uses default if None.
         """
