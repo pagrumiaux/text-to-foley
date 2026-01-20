@@ -21,6 +21,11 @@ Generate professional foley sound effects from text descriptions using AI-powere
 
 - Python 3.9 or higher
 - CUDA-capable GPU (recommended for faster generation)
+- FFmpeg development libraries (Linux):
+
+  ```bash
+  sudo apt install ffmpeg libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libavfilter-dev libswscale-dev libswresample-dev
+  ```
 
 ### Setup Instructions
 
