@@ -35,21 +35,7 @@ Generate professional foley sound effects from text descriptions using AI-powere
    cd text-to-foley
    ```
 
-2. **Create a virtual environment**
-
-   Using conda (recommended):
-   ```bash
-   conda create -n text-to-foley python=3.9 -y
-   conda activate text-to-foley
-   ```
-
-   Or using venv:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install PyTorch**
+2. **Install PyTorch**
 
    For CUDA 12.1 (GPU):
    ```bash
@@ -61,12 +47,12 @@ Generate professional foley sound effects from text descriptions using AI-powere
    pip install torch==2.1.0 torchaudio==2.1.0
    ```
 
-4. **Install the package**
+3. **Install the package**
    ```bash
    pip install -e .
    ```
 
-5. **Verify installation**
+4. **Verify installation**
    ```bash
    python -c "from text_to_foley import FoleyGenerator; print('Installation successful!')"
    ```
